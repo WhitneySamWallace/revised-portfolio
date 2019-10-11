@@ -86,3 +86,10 @@
     display: none;
   }
 }
+
+/* ------------------------------1400px---------------------------------- */
+@media (min-width: 1400px) {
+  .desktop-nav {
+    position: absolute;
+  }
+}

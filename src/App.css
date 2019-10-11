@@ -116,16 +116,16 @@ footer {
   }
 }
 
-/* ------------------------------1200px---------------------------------- */
+/* ------------------------------1400px---------------------------------- */
 
-@media (min-width: 1200px) {
-  main {
+@media (min-width: 1400px) {
+
+  .App {
+    width: 1400px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: transparent;
-  }
-
-  .main-flex-container {
-    width: 1200px;
+    margin: 0 auto;
   }
 }
