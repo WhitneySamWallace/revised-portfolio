@@ -1,0 +1,150 @@
+/* PROJECTS */
+.project-photo {
+  width: 80%;
+  box-shadow: 5px 5px 10px black;
+}
+
+.project-divider {
+  background-color: rgb(46, 46, 46);
+  height: 3px;
+}
+
+.project-description {
+  text-align: center;
+}
+
+.divider-text {
+  font-family: 'Philosopher', sans-serif;
+}
+
+.project-links {
+  margin-bottom: 10px;
+}
+
+.live-text {
+  color: black;
+  font-size: 20px;
+}
+
+.devicon-github-plain-wordmark {
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.project-links a {
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: #FBA080;
+}
+
+.technology-badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.technology-badges i {
+  margin: 5px 10px;
+}
+
+.vibes-sprout-title {
+  font-family: 'Vibes', cursive;
+  font-size: 80px;
+}
+
+.learning-latin-title {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+}
+
+.sprout-prototype-title {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 60px;
+}
+
+.sprout-prototype-title span {
+  font-family: var(--body-font);
+  font-style: italic;
+  font-size: 20px;
+}
+
+.colored {
+  font-size: 70px;
+  margin: 0 5px;
+}
+
+/* ------------------------------MEDIA QUERIES---------------------------- */
+
+/* ------------------------------550px---------------------------------- */
+@media (min-width: 800px) {
+
+  /* PROJECTS */
+
+  .project-photo {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .project-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .project-description {
+    padding-right: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .project-description p {
+    font-size: 20px;
+  }
+
+  .project-inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .project-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: solid 2px rgb(46, 46, 46);
+    position: relative;
+    width: 50%;
+    padding-bottom: 60px;
+  }
+
+  .project-links {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .live-text {
+    font-size: 25px;
+  }
+
+  .devicon-github-plain-wordmark {
+    font-size: 60px;
+  }
+
+  .technology-badges {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}

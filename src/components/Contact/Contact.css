@@ -1,0 +1,48 @@
+/* CONTACT ME */
+.contact-flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.contact-flex-container a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-left: 25%
+}
+
+.contact-flex-container a span {
+  font-size: 20px;
+  margin-left: 5px;
+  padding-top: 5px;
+  color: black;
+}
+
+.contact-flex-container a span:hover {
+  color: #DAC4FF;
+}
+
+.contact-icon {
+  height: 35px;
+  width: 35px;
+}
+/* ------------------------------MEDIA QUERIES---------------------------- */
+
+/* ------------------------------550px---------------------------------- */
+@media (min-width: 550px) {
+
+  /* CONTACT ME */
+  .contact-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+  }
+
+  .contact-flex-container a {
+    margin: 0;
+  }
+}

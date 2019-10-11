@@ -1,0 +1,11 @@
+/* HEADER */
+.intro-text {
+  color: white;
+  text-shadow: 5px 5px 8px black;
+  text-align: center;
+}
+
+.headline {
+  font-size: 11vw;
+  display: block;
+}

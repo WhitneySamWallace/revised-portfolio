@@ -1,0 +1,94 @@
+/* BIO */
+.headshot {
+  display: none;
+}
+
+.bio-opener {
+  font-size: 5vw;
+  line-height: 1.3em;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.extra-bio {
+  display: none;
+}
+
+.bio-paragraphs {
+  margin-bottom: 20px;
+}
+
+.resume {
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-weight: 800;
+  color: rgb(6, 201, 219);
+}
+
+/* ------------------------------MEDIA QUERIES---------------------------- */
+
+/* ------------------------------550px---------------------------------- */
+@media (min-width: 550px) {
+
+  /* ABOUT ME */
+  .headshot {
+    display: block;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 350px;
+  }
+
+  .intro-flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headshot-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bio-paragraphs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bio1 {
+    width: 50%;
+
+  }
+
+  .bio2 {
+    border-left: solid 2px rgb(46, 46, 46);
+    width: 50%;
+  }
+
+  .bio-opener {
+    margin: 20px;
+    padding-top: 15%;
+    font-size: 25px;
+  }
+
+  .extra-bio {
+    display: block;
+  }
+
+  .intro-flex-container h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .bio {
+    padding-top: 20px;
+    width: 50%;
+    text-align: left;
+  }
+
+
+}

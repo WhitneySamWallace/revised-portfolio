@@ -1,0 +1,76 @@
+/* DIVIDERS */
+.img1 {
+  background-image:
+    url('../../Images/bottom-chevron.svg'),
+    url('../../Images/img1.png');
+  background-position:
+    top center,
+    bottom center;
+  min-height: 600px;
+}
+
+.img2 {
+  background-image:
+  url('../../Images/bottom-chevron.svg'),
+  url('../../Images/img2.png'); 
+  background-position:
+    bottom center,
+    top center;
+  height: 300px;
+}
+
+.img3 {
+  background-image:
+  url('../../Images/bottom-chevron.svg'),
+  url('../../Images/img3.png');
+  background-position:
+    bottom center,
+    top center;
+  height: 300px;
+}
+
+.img4 {
+  background-image: 
+  url('../../Images/bottom-chevron.svg'),
+  url('../../Images/img4.png');
+  background-position:
+    bottom center,
+    top center;
+  height: 300px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------MEDIA QUERIES---------------------------- */
+
+/* ------------------------------550px---------------------------------- */
+@media (min-width: 550px) {
+
+  /* DIVIDERS */
+  .headline {
+    font-size: 50px;
+  }
+
+  .img1 {
+    background-attachment: scroll,
+      fixed;
+  }
+
+  .img2,
+  .img3,
+  .img4 {
+    background-attachment: scroll,
+      fixed;
+  }
+}
