@@ -1,5 +1,7 @@
 # Whitney Wallace's Portfolio
 
+#### [Linked In](https://www.linkedin.com/in/whitneysamwallace/)
+
 ## Skills
 
 * Front End: JavaScript/ES6, React, jQuery, HTML5, CSS3
