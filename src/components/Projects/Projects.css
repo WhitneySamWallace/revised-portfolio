@@ -1,7 +1,7 @@
 /* PROJECTS */
 .project-photo {
   width: 80%;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px darkgray;
 }
 
 .project-divider {
@@ -19,6 +19,31 @@
 
 .project-links {
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-link-button {
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: turquoise;
+  box-shadow: 3px 3px 10px darkgray;
+  transition: all 0.3s ease 0s;
+}
+
+.live-link-button:hover {
+  cursor: pointer;
+  background-color: #FBA080;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.project-links span {
+  font-size: 40px;
 }
 
 .live-text {
@@ -36,7 +61,7 @@
 }
 
 .project-links a:hover {
-  color: #FBA080;
+  color: white;
 }
 
 .technology-badges {
@@ -78,6 +103,7 @@
   font-size: 70px;
   margin: 0 5px;
 }
+
 
 /* ------------------------------MEDIA QUERIES---------------------------- */
 

@@ -27,7 +27,10 @@ class Projects extends React.Component {
               <p className="project-description">Email: Teacher@email.com</p>
               <p className="project-description">Password: Password1!</p>
               <div className="project-links">
-                <a href="https://sprout-app.now.sh/" className="live-text" rel="noopener noreferrer" target="_blank" aria-label="link to live code example">LIVE |</a>
+                <div className="live-link-button">
+                  <a href="https://sprout-app.now.sh/" className="live-text" rel="noopener noreferrer" target="_blank" aria-label="link to live code example">LIVE</a>
+                </div>
+                <span>|</span>
                 <a href="https://github.com/thinkful-ei-emu/ZOMGPOW-Client" target="_blank" rel="noopener noreferrer" aria-label="link to GitHub code repository">
                   <i className="devicon-github-plain-wordmark colored"></i>
                 </a>
@@ -56,9 +59,9 @@ class Projects extends React.Component {
           <div className="project-inner-container">
             <div className="project-description-container">
               <p className="project-description">Learning Latin is an educational app that will
-              help you learn another language by using a spaced reptition algorithm to show you 
+              help you learn another language by using a spaced repetition algorithm to show you 
               flashcards of 10 Latin words.</p>
-              <p className="project-description">Spaced reptition is a learning technique that 
+              <p className="project-description">Spaced repetition is a learning technique that 
               incorporates increasing intervals of time between previously learned material.  Words
                that are correctly translated get moved farther back in the queue, while words that 
                are answered incorrectly are kept towards the front of the queue.  Learners will be 
@@ -67,7 +70,10 @@ class Projects extends React.Component {
               <p className="project-description">Username: DwightSchrute</p>
               <p className="project-description">Password: Password1!</p>
               <div className="project-links">
-                <a href="https://w-a-a-learning-latin.now.sh/login" className="live-text" rel="noopener noreferrer" target="_blank" aria-label="link to live code example">LIVE |</a>
+                <div className="live-link-button">
+                  <a href="https://w-a-a-learning-latin.now.sh/login" className="live-text" rel="noopener noreferrer" target="_blank" aria-label="link to live code example">LIVE</a>
+                </div>
+                <span>|</span>
                 <a href="https://github.com/WhitneySamWallace/spaced-repetition" target="_blank" rel="noopener noreferrer" aria-label="link to GitHub code repository">
                   <i className="devicon-github-plain-wordmark colored"></i>
                 </a>
@@ -99,7 +105,10 @@ class Projects extends React.Component {
               <p className="project-description">Username: Teacher1</p>
               <p className="project-description">Password: Teacher1pass!</p>              
               <div className="project-links">
-                <a href="https://sprout-capstone-1.whitneysamwallace.now.sh/" className="live-text" target="_blank"  rel="noopener noreferrer" aria-label="link to live code example">LIVE |</a>
+                <div className="live-link-button">
+                  <a href="https://sprout-capstone-1.whitneysamwallace.now.sh/" className="live-text" target="_blank"  rel="noopener noreferrer" aria-label="link to live code example">LIVE</a>
+                </div>
+                <span>|</span>
                 <a href="https://github.com/WhitneySamWallace/Sprout-Client" target="_blank" rel="noopener noreferrer" aria-label="link to GitHub code repository">
                   <i className="devicon-github-plain-wordmark colored"></i>
                 </a>
